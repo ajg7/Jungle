@@ -19,8 +19,6 @@ type Operator =
     | Multiply
     | Divide
 
-/// The expression tree a formula string parses into.
-// TODO: extend with binary operators, function calls, ranges, etc.
 type Expr =
     | Const of Value
     | Reference of Address
