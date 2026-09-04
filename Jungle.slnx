@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <File Path="index.html" />
+    <File Path="package.json" />
+    <Project Path="src/Jungle.App/Jungle.App.fsproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Jungle.Tests/Jungle.Tests.fsproj" />
+  </Folder>
+</Solution>

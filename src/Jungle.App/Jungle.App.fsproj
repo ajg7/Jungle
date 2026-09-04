@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Domain.fs" />
+    <Compile Include="Parser.fs" />
+    <Compile Include="Evaluator.fs" />
+    <Compile Include="Sheet.fs" />
+    <Compile Include="Types.fs" />
+    <Compile Include="Update.fs" />
+    <Compile Include="Theme.fs" />
+    <Compile Include="View.fs" />
+    <Compile Include="App.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="5.2.0" />
+    <PackageReference Include="Fable.Elmish" Version="5.0.2" />
+    <PackageReference Include="Fable.Elmish.React" Version="5.6.0" />
+    <PackageReference Include="Feliz" Version="3.3.3" />
+  </ItemGroup>
+
+</Project>

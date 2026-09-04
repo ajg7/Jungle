@@ -1,0 +1,16 @@
+{
+  "name": "jungle",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "dotnet fable watch src/Jungle.App -o src/Jungle.App/output --run node node_modules/vite/bin/vite.js",
+    "build": "dotnet fable src/Jungle.App -o src/Jungle.App/output && node node_modules/vite/bin/vite.js build"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
